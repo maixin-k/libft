@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 14:27:51 by kmouradi          #+#    #+#             */
-/*   Updated: 2022/10/22 13:47:50 by marvin           ###   ########.fr       */
+/*   Updated: 2022/10/30 14:31:54 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ char	*ft_strdup(const char *s1)
 	v[i] = '\0';
 	return (v);
 }
-int main()
-{
-	printf("%s",*ft_strdup("kawtarmouradi"));
-}
+// int main()
+// {
+// 	printf("%s",*ft_strdup("kawtarmouradi"));
+// }

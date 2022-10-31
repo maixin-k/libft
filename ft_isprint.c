@@ -6,7 +6,7 @@
 /*   By: kmouradi <kmouradi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 13:16:10 by kmouradi          #+#    #+#             */
-/*   Updated: 2022/10/17 12:09:31 by kmouradi         ###   ########.fr       */
+/*   Updated: 2022/10/31 09:59:26 by kmouradi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ int	ft_isprint(int c)
 	if (c > 31 && c < 127)
 		return (1);
 	return (0);
-
 }
 
 // int main()
