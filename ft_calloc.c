@@ -6,7 +6,7 @@
 /*   By: kmouradi <kmouradi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 12:33:16 by kmouradi          #+#    #+#             */
-/*   Updated: 2022/10/17 11:31:12 by kmouradi         ###   ########.fr       */
+/*   Updated: 2022/11/01 13:08:18 by kmouradi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ void	*ft_calloc(size_t count, size_t size)
 
 	i = 0;
 	v = (char *) malloc(count * size);
+	if (v == 0)
+		return (0);
 	while (i < count * size)
 	{
 		v[i] = 0;

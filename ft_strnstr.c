@@ -6,7 +6,7 @@
 /*   By: kmouradi <kmouradi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 10:28:35 by kmouradi          #+#    #+#             */
-/*   Updated: 2022/10/17 11:34:28 by kmouradi         ###   ########.fr       */
+/*   Updated: 2022/11/02 09:43:08 by kmouradi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,11 +35,9 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-// #include <string.h>
-// #include <stdio.h>
+
 
 // int main(){
-//     printf("%s  \n ", ft_strnstr("ktoutarjgkhoutodgn","o",4));
-//     printf("%s   ", strnstr("ktoutarjgkhoutodgn","o",4));
+//     printf("%s   ", strnstr("NULL","NULL",0));
 //     return (0);
 // }

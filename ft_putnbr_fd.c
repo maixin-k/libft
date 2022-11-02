@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
+#include "limits.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {
@@ -25,3 +26,9 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd((x / 10), fd);
 	ft_putchar_fd(((x % 10) + 48), fd);
 }
+
+// int main ()
+// {
+//         int     fd = open("bitch", O_WRONLY| O_CREAT);
+//         ft_putnbr_fd(0, fd);
+// }
