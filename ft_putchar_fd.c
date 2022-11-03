@@ -15,3 +15,9 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write (fd, &c, 1);
 }
+// int main(){
+// 	int fd = creat("text", O_RDWR);
+// 	write(fd, "hello", 5);
+// 	close (fd);
+// 	return (0);
+// }

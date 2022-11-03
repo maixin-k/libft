@@ -6,7 +6,7 @@
 /*   By: kmouradi <kmouradi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 13:43:09 by kmouradi          #+#    #+#             */
-/*   Updated: 2022/11/01 11:38:35 by kmouradi         ###   ########.fr       */
+/*   Updated: 2022/11/03 14:07:56 by kmouradi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,13 +22,13 @@ char	*ft_strrchr(const char *s, int c)
 		a++;
 		s++;
 	}
-	while (a > 0 && *s != c)
+	while (a > 0 && *s != (char)c)
 	{
 		s--;
 		a--;
-		if (*s == c)
-			return ((char *)s);
 	}
+	if (*s == (char) c)
+		return ((char *)s);
 	return (0);
 }
 

@@ -29,6 +29,6 @@ void	ft_putnbr_fd(int n, int fd)
 
 // int main ()
 // {
-//         int     fd = open("bitch", O_WRONLY| O_CREAT);
+//         int     fd = open("txt", O_WRONLY| O_CREAT);
 //         ft_putnbr_fd(0, fd);
 // }

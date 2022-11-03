@@ -6,7 +6,7 @@
 /*   By: kmouradi <kmouradi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/14 16:22:13 by kmouradi          #+#    #+#             */
-/*   Updated: 2022/11/02 11:29:50 by kmouradi         ###   ########.fr       */
+/*   Updated: 2022/11/02 11:30:47 by kmouradi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		v[j] = '\0';
 		return (v);
 	}
-	
 	return (0);
 }
 // 	int main(void)

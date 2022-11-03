@@ -11,16 +11,30 @@
 /* ************************************************************************** */
 #include "libc.h"
 
+void	change(unsigned int i, char *str)
+{
+	i = 0;
+	str[i] = str[i] + 1;
+}
+
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
 	unsigned int	i;
 
 	i = 0;
-	if (s == NULL || f == NULL )
-		return (NULL);
+	if (!s || !f)
+		return ;
 	while (s[i] != '\0')
 	{
 		f (i, & s[i]);
 		i++;
 	}
 }
+
+// int main(){
+// 	char str[]= "hello";
+// 	// void(*f)(unsigned int, char *) = change;
+// 	ft_striteri(str, change);
+
+// 	printf("%s", str);
+// }
